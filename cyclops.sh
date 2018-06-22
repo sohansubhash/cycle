@@ -1,5 +1,6 @@
 git clone --bare https://github.com/sohansubhash/cyclops.git $HOME/.cyclops
 alias config='/usr/bin/git --git-dir=$HOME/.cyclops/ --work-tree=$HOME'
+echo "config='/usr/bin/git --git-dir=$HOME/.cyclops/ --work-tree=$HOME'"
 function config {
    /usr/bin/git --git-dir=$HOME/.cyclops/ --work-tree=$HOME $@
 }
